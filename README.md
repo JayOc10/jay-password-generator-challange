@@ -36,4 +36,8 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
+## Links
 
+Repo Link: https://github.com/JayOc10/jay-password-generator-challange
+
+Live Link: https://jayoc10.github.io/jay-password-generator-challange/
