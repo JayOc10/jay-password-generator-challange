@@ -1,6 +1,8 @@
 # jay-password-generator-challange
 
-##Description
+## Description
+
+Creating a new password generator that will includes the following characters: lower and upper case letters, numbers and special characters. The employee will be able to create a new password by selecting the type of charcters for the new password.
 
 
 
