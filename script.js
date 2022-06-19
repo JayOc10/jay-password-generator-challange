@@ -15,8 +15,25 @@ function generatePassword(){
   console.log(userOpt)
 
   if(userOpt < 8 || userOpt > 128 || isNaN(parseInt(userOpt))) {
-    alert("Please enter a number between 8 and 128");
+    alert("Please enter a number between 8 and 128"); 
+  }
+  else{
+    let lowerCase = alert("Would you like to use lowerCase characters?");
+    if(lowerCase){password += lowerCase};
+
+    let upperCase = alert("Would you like to use upperCase characters?");
+    if (upperCase){password += upperCase};
     
+
+
+
+
+
+
+
+
+
+
   }
 
 
