@@ -23,7 +23,13 @@ function generatePassword(){
 
     let upperCase = alert("Would you like to use upperCase characters?");
     if (upperCase){password += upperCase};
-    
+
+    let specialChar = alert("Would you like to use special characters?");
+    if (specialChar){password += specialChar};
+
+    let numbers = alert("Would you like to use numbers characters?");
+    if (numbers){password += numbers};
+
 
 
 
