@@ -41,3 +41,5 @@ THEN the password is either displayed in an alert or written to the page
 Repo Link: https://github.com/JayOc10/jay-password-generator-challange
 
 Live Link: https://jayoc10.github.io/jay-password-generator-challange/
+
+![The Password Generator Example.](./Assets/03-javascript-homework-demo.png)
