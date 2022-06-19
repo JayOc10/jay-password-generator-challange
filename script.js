@@ -10,7 +10,20 @@ let upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P"
 let char = "abcdefghijklmnopqrstuvwxyz0123456789~!@#$%^&*()";
 let password = "";
 
+function generatePassword(){
+  let userOpt = prompt("Would you like to create a password? Choose between 8 to 128 characters");
+  console.log(userOpt)
 
+
+
+
+
+
+
+
+
+
+}
 
 
 
