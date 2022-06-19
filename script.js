@@ -14,6 +14,12 @@ function generatePassword(){
   let userOpt = prompt("Would you like to create a password? Choose between 8 to 128 characters");
   console.log(userOpt)
 
+  if(userOpt < 8 || userOpt > 128 || isNaN(parseInt(userOpt))) {
+    alert("Please enter a number between 8 and 128");
+    
+  }
+
+
 
 
 
