@@ -13,7 +13,7 @@ let password = "";
 // functions with prompt questions
 function generatePassword(){
   let userOpt = prompt("Would you like to create a password? Choose between 8 to 128 characters");
-  
+  console.log(userOpt)
 // if statements 
   if(userOpt < 8 || userOpt > 128 || isNaN(parseInt(userOpt))) {
     alert("Please enter a number between 8 and 128"); 
@@ -25,11 +25,11 @@ function generatePassword(){
     let upCase = confirm("Would you like to use upperCase characters?");
     if (upCase){password += upperCase};
 
-    let specChar = confirm("Would you like to use special characters?");
-    if (specChar){password += specialChar};
+    let specialChar = confirm("Would you like to use special characters?");
+    if (specialChar){password += specialChar};
 
-    let nums = confirm("Would you like to use numbers characters?");
-    if (nums){password += numbers};
+    let numbers = confirm("Would you like to use numbers characters?");
+    if (numbers){password += numbers};
 
     if(lowerCase === false && upperCase === false && specialChar === false && numbers === false){
       alert("Please select at least one character type.");
